@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p>yes or no ?</p>
+        <form>
+            <label for="yes">Yes:</label>
+            <input id="yes" name="onlyOne" type="radio" value="YES">
+
+            <label for="no">No:</label>    
+            <input id="no" name="onlyOne" type="radio" value="NO">
+
+            <input type="submit">
+        </form>
+  <!--first attribute is name in these radios, helps to choose one only-->
+  <!-- second attribute is value, helps to send request with real value If 
+    you omit the value attribute in the HTML, the submitted form data assigns
+     the value "on" to the group. In this scenario, if the user clicked on the
+      "Phone" option and submitted the form, the resulting form data would be
+       "contact=on", which isn't helpful. So don't forget to set your value attributes!-->       
+        
+     <!--dropdownbutton-->
+    <form>
+     <select name="pets">
+         <option value="DOG">dog</option>
+         <option value="CAT">cat</option>
+         <option value="COW">cow</option>
+     </select>
+     <button>Go!</button>
+    </form> 
+
+
+    <form>
+        <textarea name="text" rows="10" cols="50"></textarea>
+        <button>submit</button>
+    </form>
+    <!--dont forget form with javascript-->
+    </body>
+</html>
